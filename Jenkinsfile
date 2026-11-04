@@ -10,7 +10,7 @@ pipeline {
         
         stage('Verify the image') {
             steps {
-                sh 'docker images'
+                sh 'sudo docker images'
             }
         }
     }
