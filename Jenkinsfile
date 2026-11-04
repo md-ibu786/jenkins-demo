@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build Docker image') {
             steps {
-                sh 'docker build -t my-java-application:v1 .'
+                sh 'sudo docker build -t my-java-application:v1 .'
             }
         }
         
